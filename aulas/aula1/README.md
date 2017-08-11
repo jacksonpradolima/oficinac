@@ -113,7 +113,7 @@ main()
   ```      
   
 * Especificando o executável (definindo um nome específico ao executável):
- ```shell
+  ```shell
   > gcc -o primeiro.exe primeiro.c
   > primeiro.exe
   ```                     
