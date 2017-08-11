@@ -106,14 +106,14 @@ main()
   }
   ```
   
-* Para compilar: 
+* Para compilar e executar o arquivo: 
   ```shell
   > gcc primeiro.c 
   > a.out     
   ```      
   
-* Especificando o executável:
+* Especificando o executável (definindo um nome específico ao executável):
  ```shell
   > gcc -o primeiro.exe primeiro.c
-  > primeiro.c
+  > primeiro.exe
   ```                     
