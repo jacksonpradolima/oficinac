@@ -1,24 +1,23 @@
-# LISTA DE EXERCÍCIOS SOBRE OPERADORES
-## Exercícios resolvidos
+/*
+    exercicio7.c
+    Objetivo: Converter um número binário para decimal
 
-### Questão 7
-
-Dado um número inteiro que representa um número binário de cinco dígitos, determinar o seu equivalente em decimal.
-
-```C
+    @author Jackson Antonio do Prado Lima <jacksonpradolima at gmail dot com>
+    @version 1.0 14/08/2017 
+*/
 #include <stdio.h>
 #include <math.h>
 
 int main(){
     // Solicita ao usuário informar um binário
     int bit;
-    printf("Informe um binário: \n");
+    printf("Informe um binário: ");
     scanf("%d", &bit);
    
     // Mostra ao usuário o binário informado
     printf("Convertendo '%d' para decimal",bit);
     
-    // Declara as variáveis    
+    // Declara as variáveis
     int i = 0, decimal = 0, aux = 0;
     double pow_aux = 0.0;
     
@@ -26,7 +25,7 @@ int main(){
     while(bit!=0){
       // Descubro o primeiro dígito
       aux = bit%10;
-      
+          
       // Removo o dígito
       bit/=10;
       
@@ -37,14 +36,11 @@ int main(){
       decimal += aux*pow_aux;
 
       // Incremento o i
-      i++;
+      i++;    
     }
 
     // Mostro o resultado da conversão
-    printf(" é igual a '%d'", decimal);
+    printf(" é igual a '%d'.\n", decimal);
     
     return 0;
 }
-```
-
-Para executar o código clique [aqui](https://repl.it/KHUY/3).
