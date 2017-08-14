@@ -3,6 +3,12 @@ Repositório com resoluções dos exercícios apresentados na disciplina CI067 -
 
 Site: http://www.inf.ufpr.br/silvia/oficinac/oficinac.html
 
+# Aulas
+1. [Introdução](https://github.com/jacksonpradolima/oficinac/blob/master/aulas/aula1/README.md)
+2. [Dados em C](https://github.com/jacksonpradolima/oficinac/blob/master/aulas/aula2/README.md)
+3. [Entrada e Saída em C](https://github.com/jacksonpradolima/oficinac/blob/master/aulas/aula3/README.md)
+4. [Operadores](https://github.com/jacksonpradolima/oficinac/blob/master/aulas/aula4/README.md)
+
 
 # Sugestões para aprendizado
 
