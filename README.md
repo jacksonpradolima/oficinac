@@ -9,6 +9,9 @@ Site: http://www.inf.ufpr.br/silvia/oficinac/oficinac.html
 3. [Entrada e Saída em C](https://github.com/jacksonpradolima/oficinac/blob/master/aulas/aula3/README.md)
 4. [Operadores](https://github.com/jacksonpradolima/oficinac/blob/master/aulas/aula4/README.md)
 
+# Listas
+## Resolvidos
+1. [Operadores](https://github.com/jacksonpradolima/oficinac/blob/master/listas/lista1/Resolvido.md)
 
 # Sugestões para aprendizado
 
