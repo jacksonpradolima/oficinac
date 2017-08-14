@@ -1,5 +1,5 @@
 /*
-    exercicio7.c
+    exercicio7Metodo.c
     Objetivo: Converter um número binário para decimal com o auxílio de função.
 
     @author Jackson Antonio do Prado Lima <jacksonpradolima at gmail dot com>
