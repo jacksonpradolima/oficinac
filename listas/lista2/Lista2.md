@@ -190,9 +190,7 @@ int main(){
 
 Sabe-se que o número e = 2.718281... pode ser calculado através da série infinita dada abaixo:
 
-	1   1   1   1   1   1
-e = - + - + - + - + - + - + ...
-    0!  1!  2!  3!  4!  5!
+e = (1/0!)+(1/1!)+(1/2!)+(1/3!)+(1/4!)+(1/5!)...
 
 Fazer um programa em C que calcule este número de acordo com a série acima, considerando apenas 20 termos a serem somados. Formate a saída do seu programa. 
 
