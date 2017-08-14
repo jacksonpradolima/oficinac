@@ -7,7 +7,6 @@
     @version 1.0 14/08/2017 
 */
 #include <stdio.h>
-#include <math.h>
 
 int main(){
     // Solicita ao usuário informar um número
