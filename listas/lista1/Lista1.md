@@ -1,7 +1,7 @@
 # LISTA DE EXERCÍCIOS SOBRE OPERADORES
 ## Exercícios resolvidos
 
-> ATENÇÃO ao utilizar a biblioteca math.h deve-se passar o parâmetro -lm ao gcc!
+> **ATENÇÃO** ao utilizar a biblioteca math.h deve-se passar o parâmetro -lm ao gcc!
 
 ### Questão 5
 
