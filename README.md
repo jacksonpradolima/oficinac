@@ -11,7 +11,8 @@ Site: http://www.inf.ufpr.br/silvia/oficinac/oficinac.html
 
 # Listas
 ## Resolvidos
-1. [Operadores](https://github.com/jacksonpradolima/oficinac/blob/master/listas/lista1/Resolvido.md)
+1. [Operadores](https://github.com/jacksonpradolima/oficinac/blob/master/listas/lista1/Lista1.md)
+2. [Comandos](https://github.com/jacksonpradolima/oficinac/blob/master/listas/lista2/Lista2.md)
 
 # Sugestões para aprendizado
 
