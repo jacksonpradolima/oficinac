@@ -38,8 +38,8 @@ O caracter **'\0'** diferencia um vetor de char comum de uma *string*.
 
 As definições abaixo são equivalentes para definir uma *string*.
   ```C
-   char  v[ ] = {'a', 'b', 'c', '\0'};
-   char  v[ ] = "abc" ;
+   char  v[] = {'a', 'b', 'c', '\0'};
+   char  v[] = "abc" ;
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3
@@ -49,7 +49,7 @@ As definições abaixo são equivalentes para definir uma *string*.
 
 No entanto:
   ```C
-   char v[ ] = {'a', 'b', 'c'}; /* não é tratado como uma *string* */
+   char v[] = {'a', 'b', 'c'}; /* não é tratado como uma *string* */
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2
@@ -266,7 +266,7 @@ Luiz Carlos
 * **strcmp(<nome1\>,<nome2\>)**: 
 	- Compara se duas *string*s são iguais
 	- Devolve uma das seguintes opções:
-	
+
 		inteiro < 0 se nome1 < nome2;
 		inteiro = 0 se nome1 == nome2;
 		inteiro > 0 se nome1 > nome2.
